@@ -53,44 +53,36 @@
         </ul>
       </div>
       <div class="filters-item">
-        <fieldset>
-          <legend>Производители</legend>
-          <form action="#" method="post">
-            <input type="checkbox" name="firm" id="vahter" checked>
-            <label for="vahter">BAXTER OF CALIFORNIA</label>
-            <input type="checkbox" name="firm" id="mr-natty">
-            <label for="mr-natty">MR NATTY</label>
-            <input type="checkbox" name="firm" id="suavecito" checked>
-            <label for="suavecito">SUAVECITO</label>
-            <input type="checkbox" name="firm" id="malin">
-            <label for="malin">MALIN+GOETZ</label>
-            <input type="murrays">MURRAY`S</label>
-            <input type="checkbox" name="firm" id="american-crew" checked>
-            <label for="american-crew">AMERICAN CREW</label>
-        </form>
-        </fieldset>
-        <fieldset>
-          <legend>Группы товаров</legend>
-          <div class="filter-group">
-            <form action="#" method="post">
-            <label>
-              <input type="radio" name="group-item" value="Бритвенные принадлежности">
-              Бритвенные принадлежности
-            </label>
-            <label>
-              <input type="radio" name="group-item" value="Средства для ухода" checked>
-              Средства для ухода
-            </label>
-            <label>
-              <input type="radio" name="group-item" value="Аксессуары">
-              Аксессуары
-            </label>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Производители</legend>
+              <input type="checkbox" name="firm" id="vahter" checked>
+              <label for="vahter">BAXTER OF CALIFORNIA</label>
+              <input type="checkbox" name="firm" id="mr-natty">
+              <label for="mr-natty">MR NATTY</label>
+              <input type="checkbox" name="firm" id="suavecito" checked>
+              <label for="suavecito">SUAVECITO</label>
+              <input type="checkbox" name="firm" id="malin">
+              <label for="malin">MALIN+GOETZ</label>
+              <input type="murrays">MURRAY`S</label>
+              <input type="checkbox" name="firm" id="american-crew" checked>
+              <label for="american-crew">AMERICAN CREW</label>
+          </fieldset>
+          <fieldset>
+            <legend>Группы товаров</legend>
+            <div class="filter-group">
+              <label for="item-1">Бритвенные принадлежности</label>
+              <input type="radio" name="group-item" value="Бритвенные принадлежности" id="item-1">
+              <label for="item-2">Средства для ухода</label>
+              <input type="radio" name="group-item" value="Средства для ухода" id="item-2" checked>
+              <label for="item-3">Аксессуары</label>
+              <input type="radio" name="group-item" value="Аксессуары" id="item-3">
+            </div>
+          </fieldset>
+          <div class="filter-send">
+            <input type="submit" value="Показать">
           </div>
-          </form>
-        </fieldset>
-        <div class="filter-send">
-          <input type="submit" value="Показать">
-        </div>
+        </form>
       </div>
       <article class="item">
         <a href="#"><img src="#"></a>
@@ -107,9 +99,7 @@
         </section>
       </article>
       <article class="item">
-        <section class="item-logo">
-          <a href="#"><img src="#"></a>
-        </section>
+        <a href="#"><img src="#"></a>
         <section class="item-text">
             <a href="#"><p>Увлажняющий кондиционер</p>
                         <p>"BAXTER OF CALIFORNIA"</p>
@@ -187,10 +177,10 @@
         </section>
       </article>
       <div class="paginator">
-        <a href="#" class="paginator">1</a>
-        <a href="#" class="paginator" class="paginator-active">2</a>
-        <a href="#" class="paginator">3</a>
-        <a href="#" class="paginator">4</a>
+        <a href="#">1</a>
+        <a href="#" class="paginator-active">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
       </div>
     </main>
     <footer class="main-footer">
@@ -206,7 +196,6 @@
           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-          <a class="social-btn social-btn" href="#"></a>
         </section>
         <section class="footer-copyright">
           <p>Разработано:</p>
