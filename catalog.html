@@ -22,7 +22,7 @@
               <a href="#">Прайс-лист</a>
             </li>
             <li>
-              <a href="#">Магазин</a>
+              <a href="#" class="main-active">Магазин</a>
             </li>
             <li>
               <a href="#">Контакты</a>
@@ -36,72 +36,70 @@
     </header>
     <main class="container">
       <div class="breadcrumbs">
-        <div class="breadcrumbs-name">
-          <h1>Средства для ухода</h1>
-        </div>
-        <nav class="breadcrumbs-navigation">
-          <ul>
-            <li>
-              <a href="#">Главная</a>
-            </li>
-            <li>
-              <a href="#">Магазин</a>
-            </li>
-            <li>
-              <p>Средства для ухода</p>
-            </li>
-          </ul>
-        </nav>
+        <h1>Средства для ухода</h1>
+        <ul class="breadcrumbs-navigation">
+          <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="#">Магазин</a>
+          </li>
+          <li>
+            <a href="#">Средства для ухода</a>
+          </li>
+          <li>
+            Набор для путешествий
+          </li>
+        </ul>
       </div>
       <div class="filters-item">
-        <div class="filter-item-firm">
-          <h2>Производители</h2>
-          <div class="filter-firm">
-            <input type="checkbox" name="firm" id="BAXTER OF CALIFORNIA" checked>
-            <label for="BAXTER OF CALIFORNIA">BAXTER OF CALIFORNIA</label>
-            <input type="checkbox" name="firm" id="MR NATTY">
-            <label for="MR NATTY">MR NATTY</label>
-            <input type="checkbox" name="firm" id="SUAVECITO" checked>
-            <label for="SUAVECITO">SUAVECITO</label>
-            <input type="checkbox" name="firm" id="MALIN+GOETZ">
-            <label for="MALIN+GOETZ">MALIN+GOETZ</label>
-            <input type="checkbox" name="firm" id="MURRAY`S">
-            <label for="MURRAY`S">MURRAY`S</label>
-            <input type="checkbox" name="firm" id="AMERICAN CREW" checked>
-            <label for="AMERICAN CREW">AMERICAN CREW</label>
-          </div>
-        </div>
-        <div class="filter-item-group">
-          <h2>Группы товаров</h2>
+        <fieldset>
+          <legend>Производители</legend>
+          <form action="#" method="post">
+            <input type="checkbox" name="firm" id="vahter" checked>
+            <label for="vahter">BAXTER OF CALIFORNIA</label>
+            <input type="checkbox" name="firm" id="mr-natty">
+            <label for="mr-natty">MR NATTY</label>
+            <input type="checkbox" name="firm" id="suavecito" checked>
+            <label for="suavecito">SUAVECITO</label>
+            <input type="checkbox" name="firm" id="malin">
+            <label for="malin">MALIN+GOETZ</label>
+            <input type="murrays">MURRAY`S</label>
+            <input type="checkbox" name="firm" id="american-crew" checked>
+            <label for="american-crew">AMERICAN CREW</label>
+        </form>
+        </fieldset>
+        <fieldset>
+          <legend>Группы товаров</legend>
           <div class="filter-group">
+            <form action="#" method="post">
             <label>
-                <input type="radio" name="group-item" value="Бритвенные принадлежности">
-                Бритвенные принадлежности
+              <input type="radio" name="group-item" value="Бритвенные принадлежности">
+              Бритвенные принадлежности
             </label>
             <label>
-                <input type="radio" name="group-item" value="Средства для ухода" checked>
-                Средства для ухода
+              <input type="radio" name="group-item" value="Средства для ухода" checked>
+              Средства для ухода
             </label>
             <label>
-                <input type="radio" name="group-item" value="Аксессуары">
-                Аксессуары
+              <input type="radio" name="group-item" value="Аксессуары">
+              Аксессуары
             </label>
           </div>
-        </div>
+          </form>
+        </fieldset>
         <div class="filter-send">
           <input type="submit" value="Показать">
         </div>
       </div>
       <article class="item">
-        <section class="item-logo">
-          <a href="#"><img src="#"></a>
-        </section>
-        <section class="item-text">
-          <a href="#"><p>Набор для путешествий "BAXTER OF CALIFORNIA"</p></a>
-        </section>
+        <a href="#"><img src="#"></a>
+        <a href="#"><p>Набор для путешествий</p>
+                    <p>"BAXTER OF CALIFORNIA"</p>
+        </a>
         <section class="item-price-basket">
           <div class="item-price">
-            <p>2 900 РУБ.</p>
+            2 900 РУБ.
           </div>
           <div class="item-to-basket">
             <a href="#">КУПИТЬ</a>
@@ -113,15 +111,15 @@
           <a href="#"><img src="#"></a>
         </section>
         <section class="item-text">
-            <a href="#"><p>Увлажняющий кондиционер "BAXTER OF CALIFORNIA"</p></a>
+            <a href="#"><p>Увлажняющий кондиционер</p>
+                        <p>"BAXTER OF CALIFORNIA"</p>
+            </a>
         </section>
         <section class="item-price-basket">
           <div class="item-price">
-            <p>750 РУБ.</p>
+            750 РУБ.
           </div>
-          <div class="item-to-basket">
-            <a href="#">КУПИТЬ</a>
-          </div>
+          <a class="item-to-basket" href="#">КУПИТЬ</a>
         </section>
       </article>
       <article class="item">
@@ -129,15 +127,15 @@
           <a href="#"><img src="#"></a>
         </section>
         <section class="item-text">
-            <a href="#"><p>Гель для волос "SUAVECITO"</p></a>
+            <a href="#"><p>Гель для волос</p>
+                        <p>"SUAVECITO"</p>
+            </a>
         </section>
         <section class="item-price-basket">
           <div class="item-price">
-            <p>290 РУБ.</p>
+            290 РУБ.
           </div>
-          <div class="item-to-basket">
-            <a href="#">КУПИТЬ</a>
-          </div>
+          <a href="#" class="item-to-basket">КУПИТЬ</a>
         </section>
       </article>
       <article class="item">
@@ -145,15 +143,15 @@
           <a href="#"><img src="#"></a>
         </section>
         <section class="item-text">
-            <a href="#"><p>Глина для укладки волос "AMERICAN CREW"</p></a>
+            <a href="#"><p>Глина для укладки волос</p>
+                        <p>"AMERICAN CREW"</p>
+            </a>
         </section>
         <section class="item-price-basket">
           <div class="item-price">
-            <p>500 РУБ.</p>
+            500 РУБ.
           </div>
-          <div class="item-to-basket">
-            <a href="#">КУПИТЬ</a>
-          </div>
+          <a href="#" class="item-to-basket">КУПИТЬ</a>
         </section>
       </article>
       <article class="item">
@@ -161,15 +159,15 @@
           <a href="#"><img src="#"></a>
         </section>
         <section class="item-text">
-            <a href="#"><p>Гель для волос "AMERICAN CREW"</p></a>
+            <a href="#"><p>Гель для волос</p>
+                        <p>"AMERICAN CREW"</p>
+            </a>
         </section>
         <section class="item-price-basket">
           <div class="item-price">
-            <p>300 РУБ.</p>
+            300 РУБ.
           </div>
-          <div class="item-to-basket">
-            <a href="#">КУПИТЬ</a>
-          </div>
+          <a class="item-to-basket" href="#">КУПИТЬ</a>
         </section>
       </article>
       <article class="item">
@@ -177,22 +175,22 @@
           <a href="#"><img src="#"></a>
         </section>
         <section class="item-text">
-            <a href="#"><p>Набор для бритья "BAXTER OF CALIFORNIA"</p></a>
+            <a href="#"><p>Набор для бритья</p>
+                        <p>"BAXTER OF CALIFORNIA"</p>
+            </a>
         </section>
         <section class="item-price-basket">
           <div class="item-price">
-            <p>3 900 РУБ.</p>
+            3 900 РУБ.
           </div>
-          <div class="item-to-basket">
-            <a href="#">КУПИТЬ</a>
-          </div>
+          <a href="#" class="item-to-basket">КУПИТЬ</a>
         </section>
       </article>
-      <div class="item-navigation">
-        <button class="btn item-nav" type="button">1</button>
-        <button class="btn item-nav" type="button">2</button>
-        <button class="btn item-nav" type="button">3</button>
-        <button class="btn item-nav" type="button">4</button>
+      <div class="paginator">
+        <a href="#" class="paginator">1</a>
+        <a href="#" class="paginator" class="paginator-active">2</a>
+        <a href="#" class="paginator">3</a>
+        <a href="#" class="paginator">4</a>
       </div>
     </main>
     <footer class="main-footer">
