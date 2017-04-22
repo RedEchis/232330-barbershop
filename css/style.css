@@ -1,29 +1,31 @@
 .body{
   font-size: 14px;
-  font-family: "PTSans";
+  font-family: "PTSans", Helvetica, sans-serif;
   color: rgb(0, 0, 0);
   font-weight: bold;
   line-height: 1.286;
+  background: url("bg-main.jpg");
+  background-repeat: repeat;
 }
 .first-header{
   font-size: 30px;
-  font-family: "PTSans";
+  font-family: "PTSans", Helvetica, sans-serif;
   color: rgb(0, 0, 0);
   font-weight: bold;
   line-height: 1.4;
 }
 .second-header{
   font-size: 24px;
-  font-family: "PTSans";
+  font-family: "PTSans", Helvetica, sans-serif;
   color: rgb(0, 0, 0);
   font-weight: bold;
   line-height: 1.25;
 }
-.container {
-  background: url("img/ground-light.png");
+main{
+  background: url("../img/bg-main.png");
   background-repeat: repeat;
 }
 .main-header, .main-footer{
-  background: url("img/ground-dark.png");
+  background: url("../img/bg-footer.png");
   background-repeat: repeat;
 }
